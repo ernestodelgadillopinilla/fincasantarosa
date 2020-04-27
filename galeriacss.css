@@ -1,0 +1,69 @@
+body {
+	background-image: url(finca.png);
+	width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font font-optical-sizing: 12px;
+}
+
+.contenedor{
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.cabecerap{
+	width: 100%;
+	height: 50px;
+	position: fixed;/*pegar EN LA PARTE SUPERIOR Y NO SE MUEVA*/
+	top: 0; /*PEGAR EN LA PARTE SUPERIOR*/
+	z-index: 999;/*NO SE SUPERPONGAN ELEMENTOS EN EL PANO Z CUANDO SE REALICE SCROLL*/
+
+}
+
+ul li{
+display: inline-block;
+font-family: "Open Sans";
+color: #A9E2F3;
+font-size: 18px;
+font-weight: normal;
+text-decoration: none;
+padding-right: 8px;
+padding-left: 8px;
+border-right: 2px solid;
+}
+
+ul li a{
+	color: aquamarine;
+	text-decoration: none;
+}
+
+ul2{	
+list-style: none;
+font-family: Arial;
+color: aliceblue;
+font-size: 20px;
+}
+
+ul2 li a{
+text-decoration: none;
+display: block;
+padding: 10px;	
+}
+
+ul2 li a:hover{
+background-color: aqua;	
+}
+
+.cabecera1{
+width: 50%;
+height: 50px;
+}
+
+.cabecera1-1{
+float: right;
+margin-top: 10px;
+width: auto;
+
+
+

@@ -1,0 +1,29 @@
+.div1 {
+    background: white;
+    color: black;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid #dfdedd;
+    border-radius: 15px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.divp {
+    width: 540px;
+    height: 240px;
+    margin: auto;
+}
+
+.p1 {
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+
